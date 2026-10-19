@@ -1,21 +1,21 @@
 # 学习通助手 · Windows 下载
 
-当前稳定版：**0.5.15**。Windows 10 / 11，64 位；自带网页引擎，无需安装 Node.js 或另开浏览器。
+当前稳定版：**0.5.16**。Windows 10 / 11，64 位；自带网页引擎，无需安装 Node.js 或另开浏览器。
 
 | 版本 | 下载 |
 | --- | --- |
-| 安装版 | [XuexitongAssistant-0.5.15-Setup.exe](https://github.com/Jiacheng6/xuexitong-assistant-releases/releases/download/v0.5.15/XuexitongAssistant-0.5.15-Setup.exe) |
-| 免安装 ZIP | [XuexitongAssistant-0.5.15-win-x64.zip](https://github.com/Jiacheng6/xuexitong-assistant-releases/releases/download/v0.5.15/XuexitongAssistant-0.5.15-win-x64.zip) |
+| 安装版 | [XuexitongAssistant-0.5.16-Setup.exe](https://github.com/Jiacheng6/xuexitong-assistant-releases/releases/download/v0.5.16/XuexitongAssistant-0.5.16-Setup.exe) |
+| 免安装 ZIP | [XuexitongAssistant-0.5.16-win-x64.zip](https://github.com/Jiacheng6/xuexitong-assistant-releases/releases/download/v0.5.16/XuexitongAssistant-0.5.16-win-x64.zip) |
 
-[最新发布](https://github.com/Jiacheng6/xuexitong-assistant-releases/releases/latest) · [更新说明](docs/releases/0.5.15.md) · [源码与使用说明](https://github.com/Jiacheng6/xuexitong-assistant)
+[最新发布](https://github.com/Jiacheng6/xuexitong-assistant-releases/releases/latest) · [更新说明](docs/releases/0.5.16.md) · [源码与使用说明](https://github.com/Jiacheng6/xuexitong-assistant)
 
 免安装版请完整解压后运行“学习通助手.exe”。
 
 ## 本次更新
 
-- 新增讨论草稿：优先参考重复回答，无可用重复内容时使用所选 AI，核对后逐条发表。
-- 已发表讨论核对本人回复和任务点完成状态，避免重复回复。
-- 修复讨论发表成功却误报未确认、完成状态不同步的问题。
+- 讨论无法勾选时显示原因，可直达设置开启，保存后立即解锁。
+- 修复 PDF 等阅读任务未打开正文、未正确核对完成状态的问题。
+- 修复两种判断题表单的答案回填，以及豆包虚拟消息导致回答关联失败的问题。
 
 课程清单、选课方案、进度和内置网页登录数据保留。Windows 通知遵循系统权限和勿扰设置，软件内未读提醒继续保留。
 
