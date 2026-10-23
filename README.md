@@ -1,22 +1,21 @@
 # 课栈（原学习通助手）· Windows 下载
 
-当前稳定版：**0.6.6**。Windows 10 / 11，64 位；自带网页引擎，无需安装 Node.js 或另开浏览器。
+当前稳定版：**0.6.7**。Windows 10 / 11，64 位；自带网页引擎，无需安装 Node.js 或另开浏览器。
 
 | 版本 | 下载 |
 | --- | --- |
-| 安装版 | [XuexitongAssistant-0.6.6-Setup.exe](https://github.com/Jiacheng6/kezhan-releases/releases/download/v0.6.6/XuexitongAssistant-0.6.6-Setup.exe) |
-| 免安装 ZIP | [XuexitongAssistant-0.6.6-win-x64.zip](https://github.com/Jiacheng6/kezhan-releases/releases/download/v0.6.6/XuexitongAssistant-0.6.6-win-x64.zip) |
+| 安装版 | [XuexitongAssistant-0.6.7-Setup.exe](https://github.com/Jiacheng6/kezhan-releases/releases/download/v0.6.7/XuexitongAssistant-0.6.7-Setup.exe) |
+| 免安装 ZIP | [XuexitongAssistant-0.6.7-win-x64.zip](https://github.com/Jiacheng6/kezhan-releases/releases/download/v0.6.7/XuexitongAssistant-0.6.7-win-x64.zip) |
 
-[最新发布](https://github.com/Jiacheng6/kezhan-releases/releases/latest) · [更新说明](docs/releases/0.6.6.md) · [源码与使用说明](https://github.com/Jiacheng6/kezhan)
+[最新发布](https://github.com/Jiacheng6/kezhan-releases/releases/latest) · [更新说明](docs/releases/0.6.7.md) · [源码与使用说明](https://github.com/Jiacheng6/kezhan)
 
 免安装版请完整解压后运行“学习通助手.exe”。
 
 ## 本次更新
 
-- 修复智慧树已提交章节停在成绩页、无法继续下一任务的问题。
-- 核对课程、章节和实得成绩后保存完成，清理待审，避免重复答题或提交。
-- 修复结束时完成状态被写回待完成的问题，兼容测验入口的短暂登录跳转。
-- 确认已是最新版后，将残留的旧更新错误提醒标为已处理。
+- 修复智慧树测验重开后选项随机换序，导致已保存答案无法恢复的问题；按选项 ID 核对内容并映射当前字母。
+- 回填逐项等待勾选生效并核对稳定状态，遇到网页验证时保留原题。
+- 已完成题恢复后保留答案，仅继续未完成题；选项内容真正变化时仍停止核对。
 
 智慧树暂不支持翻转课、见面课和期末考试。
 
