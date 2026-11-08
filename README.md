@@ -1,45 +1,11 @@
-# 课栈 · Kezhan
+# 课栈
 
-课栈是面向 Windows 的多平台学习工作台。你可以在一个窗口里查看各平台的课程和完成情况、选定学习范围、追踪任务进度，以及核对待审答案。
+当前版本：0.9.0，Windows 10 / 11 x64。
 
-**当前版本 0.8.2** · Windows 10 / 11（x64）
+[安装包](https://github.com/Jiacheng6/kezhan-releases/releases/download/v0.9.0/Kezhan-0.9.0-Setup.exe) · [免安装 ZIP](https://github.com/Jiacheng6/kezhan-releases/releases/download/v0.9.0/Kezhan-0.9.0-win-x64.zip) · [完整对应源码](https://github.com/Jiacheng6/kezhan-releases/releases/download/v0.9.0/Kezhan-0.9.0-Source.zip) · [国内下载](https://cnb.cool/kezhan-app/kezhan-releases/-/releases/tag/latest)
 
-| 下载 | 如何使用 |
-| --- | --- |
-| [Windows 安装版](https://github.com/Jiacheng6/kezhan-releases/releases/download/v0.8.2/Kezhan-0.8.2-Setup.exe) | 运行安装程序，按提示完成安装。 |
-| [Windows 免安装版](https://github.com/Jiacheng6/kezhan-releases/releases/download/v0.8.2/Kezhan-0.8.2-win-x64.zip) | 完整解压到一个文件夹，再运行其中的 `课栈.exe`。 |
+支持学习通、智慧树、U校园和 WeLearn，按需开启。统一选课、后台任务、进度与待审管理。题库及 AI 能力以平台、额度和软件设置为准。
 
-[国内下载（CNB）](https://cnb.cool/kezhan-app/kezhan-releases/-/releases/tag/latest) · [GitHub 发布页](https://github.com/Jiacheng6/kezhan-releases/releases/latest) · [更新说明](https://github.com/Jiacheng6/kezhan-releases/releases/tag/v0.8.2) · [反馈问题](https://github.com/Jiacheng6/kezhan/issues)
+## 开源协议与致谢
 
-软件自带运行环境和网页引擎。访问课程平台及 AI 服务需要联网。
-
-## 第一次使用
-
-1. 打开课栈，进入学习工作台，在「管理平台」打开需要使用的平台并登录。
-2. 点击「扫描课程」，在「选课与学习」中选定课程或任务。可切换三列和树状视图。
-3. 核对任务数量后点「开始学习」。工作台会显示当前任务及本批总进度，遇到需要你处理的项目时可查看原网页。
-4. 在「待审答案」核对并提交答案。默认使用人工确认，处理范围由平台、题型和你的设置决定。
-
-## 课程、答题和外观
-
-| 功能 | 说明 |
-| --- | --- |
-| 多平台工作台 | 汇总学习通、智慧树共享课和 U校园 AI 版的课程，按平台区分。支持的任务类型因平台而异。 |
-| 任务进度 | 显示实际播放或答题进度、各平台进度和本批总进度。进度条可选粒子流或经典刻度。 |
-| 题库与 AI | 学习通可在「答题与题库」开通 AXE 题库，扫码后由软件尝试导入令牌，并查看剩余额度。题库未命中时默认使用所选 AI 补答，也可留到待审。AI 通道支持千问、豆包、DeepSeek 网页和 OpenAI 兼容 API。 |
-| 档案与配色 | 课程档案可直接换色，与工作台共用设置。新配色从左向右渐变展开，昼夜切换使用圆形动效。 |
-| 后台运行 | 收起内置网页可继续任务。关闭主窗口时可选择隐藏到托盘继续，或停止并退出。 |
-
-学习平台和 AI 的登录、额度及人工验证以对应服务提示为准。智慧树的翻转课、见面课和期末考试暂未支持。
-
-题库命中后可跳过截图、图片上传和等待 AI 回答。实际速度取决于题库命中率、作业题数和网络，不保证所有作业达到固定倍数。纯文字及部分数学题可直接查题。
-
-数学题兼容：可用原版格式查询图片题干、图片选项及带 TeX 源码的公式。是否可用仍取决于题库收录和答案能否唯一匹配；纯图形 SVG、无源码公式、缺失资源等继续交给 AI 或待审。
-
-## 更新与数据
-
-软件启动时检查更新，也可在「偏好设置 → 软件与数据」手动检查。自动渠道优先尝试 CNB，也可以切到 GitHub。使用本地更新时，请同时下载同一版本的安装包与 `release-manifest.json`。
-
-安装版与免安装版在同一 Windows 用户下共享 `%APPDATA%\Kebo`。升级会继续读取原有设置、课程进度和登录数据。若平台会话过期，需重新登录。反馈问题时请描述版本和复现步骤，发日志前请移除账号、课程信息和令牌。
-
-[完整使用说明](使用说明.md) · [源码仓库](https://github.com/Jiacheng6/kezhan)
+整体 GPLv3；档案界面基于 [RhineLabUI](https://github.com/LBEILC/RhineLabUI)（MIT），WeLearn 复用 [Auto-WeLearn](https://github.com/SubmergeDQ/Auto-WeLearn)（GPLv3）。详见 [许可声明及构建方法](THIRD-PARTY-NOTICES.md)。完整源码与发行包同页提供。
